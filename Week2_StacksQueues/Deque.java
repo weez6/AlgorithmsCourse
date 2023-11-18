@@ -37,7 +37,7 @@ public class Deque<Item> implements Iterable<Item> {
     }
 
     private void validateInput(Item item) {
-        if (item == null) throw new IllegalArgumentException("nah broski");
+        if (item == null) throw new IllegalArgumentException("don't like that");
     }
 
     private void thisBitchEmpty() {
